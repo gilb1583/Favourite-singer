@@ -1,0 +1,104 @@
+body {
+background: radial-gradient(orange, yellow);
+}
+
+img {
+border: solid;
+border-color: red;
+border-radius: 10px;
+}
+
+h1 {
+font-family: sans-serif;
+}
+
+#john {
+font-family: papyrus;
+}
+
+td {
+border: solid;
+border-width: 1px;
+border-color: gray;
+font-family: sans-serif;
+}
+
+th {
+border: solid;
+border-width: 1px;
+border-color: gray;
+background-color: green;
+font-family: sans-serif;
+
+}
+
+nav {
+float: left;
+padding: 50px;
+overflow: hidden;
+}
+
+article1 {
+float: right;
+border-left: 1px solid gray;
+padding: 25px;
+overflow: hidden;
+}
+
+article2 {
+float: center;
+padding: 50px;
+overflow: hidden;
+}
+
+table {
+border-collapse: collapse;
+}
+
+p {
+font-family: sans-serif;
+}
+
+ul {
+font-family: sans-serif;
+}
+
+h2 {
+font-family: sans-serif;
+}
+
+h3 {
+font-family: sans-serif
+}
+
+ol {
+font-family: sans-serif;
+}
+
+#tmbg {
+background-color: rgb(135, 206, 250);
+border: solid;
+border-width: 2.5px;
+
+}
+
+marquee {
+border: solid;
+border-color: gray;
+border-width: 1px;
+font-family: sans-serif;
+background-color: mediumturquoise;
+}
+
+#willy {
+float: right;
+}
+
+#dog {
+float: right;
+}
+
+#yrs {
+float: right;
+padding: 10px;
+}

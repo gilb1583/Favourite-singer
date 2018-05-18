@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>favourite singer</title>
+<link rel="stylesheet" href="style.css" />
+<script src="main.js"></script>
+<marquee behavior="alternate">They Might Be Giants!</marquee>
+<script type="text/javascript">
+	function willy() {
+	var name = prompt("What is your name?");
+	
+	if(name) {
+		alert("Nice to meet you, " + name + "! My name is William Allen White.");
+	}
+}
+</script>
+
+<script>
+	function dog() {
+	var years = prompt("How old is your dog?");
+
+	if(years) {
+	alert("Your dog would be " + years * 7 + " years old if they were a human.");
+	}
+}
+</script>
+
+</head>
+
+<body>
+
+<nav>
+<h1 id="tmbg">They Might Be Giants</h1>
+
+<img  id="two" src="file:///U:/web%20design/Ian%20M.%20Gilbert%20java%20script/300px-Close_up_picture_of_John_Linnell_and_John_Flansburgh.jpg" alt="image of my favourite singer" width="300">
+</nav>
+
+<article1>
+<h2>Albums</h2>
+
+<ul id="albums">
+	<li>They Might be Giants</li>
+	<li>Lincoln</li>
+	<li>Flood</li>
+	<li>Apollo 18</li>
+	<li>John Henry</li>
+	<li>Factory Showroom</li>
+	<li>Long Tall Weekend</li>
+	<li>Mink Car</li>
+	<li>No!</li>
+	<li>The Spine</li>
+	<li>Here Come The ABC's</li>
+	<li>The Else</li>
+	<li>Here Come The 123's</li>
+	<li>Here Comes Science</li>
+	<li>Join Us</li>
+	<li>Nanobots</li>
+	<li>Glean</li>
+	<li>Why?</li>
+	<li>Phone Power</li>
+	<li>I Like Fun</li>
+</ul>
+</article1>
+
+<article2>
+<h2>Popular Songs Of Theirs</h2>
+
+<ol>
+	<li>Birdhouse In Your Soul</li>
+	<li>Their cover of Istanbul (Not Constantinople)</li>
+	<li>Particle Man</li>
+	<li>Boss Of Me (the theme song to Malcolm In The Middle)</li>
+	<li>Ana Ng</li>
+	<li>Don't Let's Start</li>
+	<li>Doctor Worm</li>
+	<li>The Statue Got Me High</li>
+	<li>Experimental Film</li>
+	<li>Man, It's So Loud In Here</li>
+	<li>The Guitar (The Lion Sleeps Tonight)</li>
+	<li>I Palindrome I</li>
+	<li>MANY more</li>
+</ol>
+</article2>
+
+
+
+
+
+<br>
+<br>
+<h3>Some Info On TMBG</h3>
+
+<p>They have won 2 grammies, one for Boss Of Me, and one for their children's album Here Come The 123's. Their album Flood has been certified platinum. They also performed the theme song for The Daily Show during the Jon Stewart years. They are a large inspiration for alternative rock artists, such as OK Go, Barenaked Ladies, Jonathan Coulton, and many more.</p>
+
+<table>
+<tr>
+	<th>Member Name</th>
+	<th>Instrument(s)</th>
+</tr>
+<tr>
+	<td>John Linnell</td>
+	<td>Accordion, keyboard,<br> clarinet, saxophone, vocals</td>
+</tr>
+<tr>
+	<td>John Flansburgh</td>
+	<td>Vocals, electric guitar,<br> acoustic guitar, The Stick</td>
+</tr>
+<tr>
+	<td>Marty Beller</td>
+	<td>Drums,<br> percussion</td>
+</tr>
+<tr>
+	<td>Dan Miller</td>
+	<td>Electric guitar,<br> acoustic guitar</td>
+</tr>
+<tr>
+	<td>Danny Weinkauf</td>
+	<td>Bass guitar</td>
+</tr>
+
+</table>
+
+<img id="dog" src="file:///U:/web%20design/Ian%20M.%20Gilbert%20java%20script/dog.jpg" alt="dog" width="150px" onclick="dog();" />
+
+<br>
+<br>
+<p id="yrs">Click on the dog to find out your dog's age in human years!</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h2 id="john">The two Johns</h2>
+	<p id="text">John Flansburgh</p>
+
+<img id="willy" src="file:///U:/web%20design/Ian%20M.%20Gilbert%20java%20script/26879-004-7992EAFE.jpg" alt="William Allen White" width="100px" onclick="willy();" />
+
+<button type="button" onclick="document.getElementById('text').innerHTML = 'John Linnell'">And the other one</button>
+
+<br>
+<br>
+
+<a href="https://www.theymightbegiants.com/"><button>They Might Be Giants' Website</button></a>
+
+<hr>
+
+<p id="time"></p>
+<script>
+var d = new Date();
+document.getElementById("time").innerHTML = d;
+</script>
+
+	</body>
+
+</html>
